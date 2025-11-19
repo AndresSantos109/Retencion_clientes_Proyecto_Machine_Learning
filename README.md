@@ -41,3 +41,5 @@ En primer lugar, durante el análisis exploratorio se encontró que hay algunas 
 Con respecto a los modelos, los mejores son el VM y el XGBoost, que presentaron buenos valores de recall en entrenamiento y en testeo (muy cercanos, lo que indica que sí hay aprendizaje y no overfitting). Además, tienen un valor de 0.82 de AUC, es decir, el modelo hace una buena generalización e identificación de las clases. Por otra parte, el modelo da prioridad al recall sobre la precision debido a que considera que es más importante invertir en clientes para retenerlos antes de que exista la posibilidad de perderlos.
 
 Como sugerencia, el modelo de regresión logística es muy bueno identificando los clientes que no se van a ir y si se complementa con el modelo SVM o XGBoost, se podria precisar en clientes que se requeiere hacer campañas para su retención y ahorrar en los que realmente no lo requieren, pues la union de ambos modelos lograría una mayor diferenciación entre clases.
+
+Para acceder al proyecto en colab puede ingresar al siguiente link: https://colab.research.google.com/drive/1Qxd8dUifSdLViLoUR3_BwqCtFeQRpejk?usp=sharing
